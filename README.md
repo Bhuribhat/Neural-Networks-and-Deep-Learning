@@ -11,11 +11,12 @@
 
 - [Python Basics With Numpy](https://github.com/Bhuribhat/Neural-Networks-and-Deep-Learning/blob/main/1_Python_Basics_with_Numpy.ipynb)
 
-- [Logistic Regression with a Neural Network mindset]()
+- [Logistic Regression with a Neural Network mindset](https://github.com/Bhuribhat/Neural-Networks-and-Deep-Learning/blob/main/2_Logistic_Regression_with_Neural_Network.ipynb)
 
 - [Implementing a Neural Network from Scratch in Python – An Introduction](https://github.com/dennybritz/nn-from-scratch) (Denny Britz, 2015)
 
 - [Why normalize images by subtracting dataset's image mean, instead of the current image mean in deep learning?](https://stats.stackexchange.com/questions/211436/why-normalize-images-by-subtracting-datasets-image-mean-instead-of-the-current) (Stack Exchange)
+
 
 ## Week 3 - Shallow Neural Networks 
 *Build a neural network with one hidden layer, using forward propagation and backpropagation.* 
