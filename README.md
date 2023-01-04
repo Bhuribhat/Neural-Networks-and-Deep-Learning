@@ -9,7 +9,7 @@
 ## Week 2 - Neural Networks Basics 
 *Set up a machine learning problem with a neural network mindset and use vectorization to speed up your models.*
 
-- [Python Basics With Numpy]()
+- [Python Basics With Numpy](https://github.com/Bhuribhat/Neural-Networks-and-Deep-Learning/blob/main/1_Python_Basics_with_Numpy.ipynb)
 
 - [Logistic Regression with a Neural Network mindset]()
 
