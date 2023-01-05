@@ -100,13 +100,14 @@ error: 0.289
 -   minimizing the **training loss**
 -   decimal prediction between 0 and 1
 
-**learning rate ($\alpha$)** ensure a gradual weight update with no
+**learning rate ( $\alpha$ )** ensure a gradual weight update with no
 drastic changes
 
 **update weight and bias**
 
--   $w'_{i} = w_{i} + \alpha \cdot (y - \hat{y}) \cdot x_{i}$
--   $b'_{i} = b_{i} + \alpha \cdot (y - \hat{y})$
+$$w'_{i} = w_{i} + \alpha \cdot (y - \hat{y}) \cdot x_{i}$$  
+
+$$b'_{i} = b_{i} + \alpha \cdot (y - \hat{y})$$  
 
 **epoch** is a **single iteration** over the dataset of features
 
@@ -303,19 +304,6 @@ data.head()
 ```
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -449,11 +437,9 @@ Average Loss: 0.297
 
 ## Analyze Training Data
 
--   1.  first sunstantial decrease means **learning rate** should be
-        lower
+- first sunstantial decrease means **learning rate** should be lower
 
--   1.  Average Loss has the potential tp keep decreasing means
-        **epoch** should be higher
+- Average Loss has the potential tp keep decreasing means **epoch** should be higher
 
 ```py
 # plot the average loss (x = # of epoch, y = avg loss)
