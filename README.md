@@ -21,7 +21,7 @@
 ## Week 3 - Shallow Neural Networks 
 *Build a neural network with one hidden layer, using forward propagation and backpropagation.* 
 
-- [Planar data classification with one hidden layer]()
+- [Planar data classification with one hidden layer](https://github.com/Bhuribhat/Neural-Networks-and-Deep-Learning/blob/main/3_Planar_Classification_One_Layer.ipynb)
 
 - [Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/neural-networks-case-study/) (Stanford University)
 
@@ -29,11 +29,13 @@
 ## Week 4 - Deep Neural Networks
 *Analyze the key computations underlying deep learning, then use them to build and train deep neural networks for computer vision tasks.*
 
-- [Building your Deep Neural Network Step by Step]()
+- [Building your Deep Neural Network Step by Step](https://github.com/Bhuribhat/Neural-Networks-and-Deep-Learning/blob/main/4_Deep_Neural_Network_Step_by_Step.ipynb)
 
-- [Deep Neural Network Application]()
+- [Deep Neural Network Application](https://github.com/Bhuribhat/Neural-Networks-and-Deep-Learning/blob/main/5_Deep_Neural_Network_Application.ipynb)
 
 - [Autoreload of modules in IPython](https://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython) (Stack Overflow)
+
+- [Feedforward Neural Networks in Depth](https://community.deeplearning.ai/t/feedforward-neural-networks-in-depth/98811)
 
 
 <!-- TODO add href -->
