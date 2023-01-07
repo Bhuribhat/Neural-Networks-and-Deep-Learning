@@ -1,7 +1,6 @@
 # 📑 References
 
 
-<!-- TODO add link -->
 ## Week 1 - Introduction to Deep Learning
 *Analyze the major trends driving the rise of deep learning, and give examples of where and how it is applied today.*
 
@@ -35,12 +34,11 @@
 
 - [Autoreload of modules in IPython](https://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython) (Stack Overflow)
 
-- [Feedforward Neural Networks in Depth](https://community.deeplearning.ai/t/feedforward-neural-networks-in-depth/98811)
+- [Feedforward Neural Networks in Depth](https://community.deeplearning.ai/t/feedforward-neural-networks-in-depth/98811)(Community)
 
 
-<!-- TODO add href -->
 # 🏆 Certificates 
 To verify the certificates, click the images to follow the links.
 
 <p align="middle">
-    <a href=""><img src="./images/Certificate.png" height="400"></a>
+    <a href="https://coursera.org/share/d73ecd97681b8e856fab8e072b0b93cb"><img src="./images/Certificate.png" height="400"></a>
