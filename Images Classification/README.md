@@ -42,6 +42,8 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 ```
 
+Here's an example code in PyTorch for a neural network to classify cats and dogs:  
+
 ```py
 import torch
 import torch.nn as nn
@@ -70,11 +72,34 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
 - The third layer is a dense layer with 2 neurons and a softmax activation function. The softmax activation function is commonly used in the final layer of a classification model, as it returns a probability distribution over the classes.  
 
-- To summarize, an epoch is a complete iteration over the entire training dataset, while a batch is a subset of the training data used during each iteration of the optimization process.  
-
 The image data is first passed through the Flatten layer in TensorFlow or the view operation in PyTorch, which reshapes the input tensor into a one-dimensional array. The flattened data is then passed through the dense (fully connected) layers of the network, which perform the classification task.  
 
 A fully connected layer where each neuron in the layer is connected to every neuron in the previous layer. The input to a fully connected layer is a 1D vector, and the output is another 1D vector, which is then passed to the next layer. The weights between the neurons in the layer are learned during training. They are typically followed by activation functions, such as ReLU or sigmoid, that introduce non-linearity into the model.  
+
+Here is an example of a convolutional neural network (ConvNet) code in TensorFlow using the same dataset:  
+
+```py
+import tensorflow as tf
+
+model = tf.keras.Sequential()
+model.add(tf.keras.layers.Conv2D(32, (3, 3), activation='relu', input_shape=(128, 128, 3)))
+model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+model.add(tf.keras.layers.Conv2D(64, (3, 3), activation='relu'))
+model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+model.add(tf.keras.layers.Flatten())
+model.add(tf.keras.layers.Dense(256, activation='relu'))
+model.add(tf.keras.layers.Dense(2, activation='softmax'))
+
+model.compile(optimizer='adam',
+              loss='categorical_crossentropy',
+              metrics=['accuracy'])
+```
+
+In this code, we use two Conv2D layers, each followed by a MaxPooling2D layer. These layers extract features from the input images and reduce the spatial dimension, making the model more computationally efficient.  
+
+After the Conv2D and MaxPooling2D layers, we use a Flatten layer to convert the output of the ConvNet into a 1D vector, which can then be fed into the dense layers for classification. The dense layers are similar to the ones in the previous code, but in this case, they take the output of the ConvNet as input.  
+
+To summarize, an epoch is a complete iteration over the entire training dataset, while a batch is a subset of the training data used during each iteration of the optimization process.  
 
 
 ## Models
