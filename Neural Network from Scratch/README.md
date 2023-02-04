@@ -439,7 +439,7 @@ Average Loss: 0.297
 
 - first sunstantial decrease means **learning rate** should be lower
 
-- Average Loss has the potential tp keep decreasing means **epoch** should be higher
+- Average Loss has the potential to keep decreasing means **epoch** should be higher
 
 ```py
 # plot the average loss (x = # of epoch, y = avg loss)
