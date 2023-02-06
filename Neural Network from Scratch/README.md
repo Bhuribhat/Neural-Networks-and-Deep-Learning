@@ -466,6 +466,7 @@ train_model(data, weights, bias, l_rate, epochs)
 df_plot.savefig("Training_Loss.pdf")
 ```
 
+## Basic Deep Neural Network
 
 Here's an example of how you can build a simple deep neural network for binary classification using TensorFlow:
 
@@ -488,4 +489,8 @@ test_loss, test_acc = model.evaluate(x_test, y_test)
 print('Test Accuracy: {}'.format(test_acc))
 ```
 
-In this example, __x_train__ and __y_train__ are the training data and labels, and __x_test__ and __y_test__ are the test data and labels. The input shape of the first dense layer is __(8,)__, indicating that the input data has __8 features__. The first hidden layer has 16 units and uses the ReLU activation function, while the output layer has 1 unit and uses the sigmoid activation function. The model is compiled with the Adam optimizer and binary cross-entropy loss function, and trained for 10 epochs with a batch size of 32. After training, the test accuracy is evaluated and printed.
+- __x_train__ and __y_train__ are the training data and labels.
+- __x_test__ and __y_test__ are the test data and labels. 
+
+The input shape of the first dense layer is __(8,)__, indicating that the input data has __8 features__. 
+The first hidden layer has 16 units and uses the ReLU activation function, while the output layer has 1 unit and uses the sigmoid activation function. The model is compiled with the Adam optimizer and binary cross-entropy loss function, and trained for 10 epochs with a batch size of 32. After training, the test accuracy is evaluated and printed.
