@@ -124,6 +124,11 @@ To summarize, an epoch is a complete iteration over the entire training dataset,
     - Output: Image of label coins
 
 
+5. Classify `Flowers` in oxford dataset.
+    - Input: Image of the unknown flower.
+    - Output: Probabilities of the classes.
+
+
 ## Resource
 
 - [happy classification github](https://github.com/nicknochnack/ImageClassification)
