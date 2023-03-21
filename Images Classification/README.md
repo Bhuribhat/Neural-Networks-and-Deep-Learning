@@ -129,6 +129,26 @@ To summarize, an epoch is a complete iteration over the entire training dataset,
     - Output: Probabilities of the classes
 
 
+6. Classify `Traffy Fondue` dataset.
+    - Input: Image of the traffy fondue
+    - Output: Probabilities of the classes
+
+
+## Diagnose Neural Network
+
+### Loss Curve
+
+One of the most used plots to debug a neural network is a Loss curve during training. It gives us a snapshot of the training process and the direction in which the network learns.
+
+![loss](./assets/loss_graph.webp)
+
+### Accuracy Curve
+
+Another most used curves to understand the progress of Neural Networks is an Accuracy curve. A more important curve is the one with both training and validation accuracy. The gap between training and validation accuracy is a clear indication of overfitting. The larger the gap, the __higher__ the __overfitting__.
+
+![accuracy](./assets/accuracy_graph.webp)
+
+
 ## Resource
 
 - [happy classification github](https://github.com/nicknochnack/ImageClassification)
