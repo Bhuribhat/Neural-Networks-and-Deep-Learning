@@ -140,6 +140,7 @@ To summarize, an epoch is a complete iteration over the entire training dataset,
 
 One of the most used plots to debug a neural network is a Loss curve during training. It gives us a snapshot of the training process and the direction in which the network learns.
 
+![loss](./assets/loss_curve.png)
 ![loss](./assets/loss_graph.webp)
 
 ### Accuracy Curve
