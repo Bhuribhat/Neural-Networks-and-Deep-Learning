@@ -493,4 +493,6 @@ print('Test Accuracy: {}'.format(test_acc))
 - __x_test__ and __y_test__ are the test data and labels. 
 
 The input shape of the first dense layer is __(8,)__, indicating that the input data has __8 features__. 
-The first hidden layer has 16 units and uses the ReLU activation function, while the output layer has 1 unit and uses the sigmoid activation function. The model is compiled with the Adam optimizer and binary cross-entropy loss function, and trained for 10 epochs with a batch size of 32. After training, the test accuracy is evaluated and printed.
+The first hidden layer has 16 units and uses the ReLU activation function, while the output layer has 1 unit and uses the sigmoid activation function. The model is compiled with the Adam optimizer and binary cross-entropy loss function, and trained for 10 epochs with a batch size of 32. After training, the test accuracy is evaluated and printed.  
+
+Pytorch: https://github.com/mrdbourke/pytorch-deep-learning
