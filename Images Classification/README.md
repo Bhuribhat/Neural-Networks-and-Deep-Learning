@@ -156,3 +156,4 @@ Another most used curves to understand the progress of Neural Networks is an Acc
 - [happy classification github](https://github.com/nicknochnack/ImageClassification)
 - [happy classification tutorial](https://youtu.be/jztwpsIzEGc)
 - [AI Learns the Numbers](https://www.youtube.com/watch?v=2utAfvGAbgg)
+- [Getting Things Done with Pytorch](https://github.com/curiousily/Getting-Things-Done-with-Pytorch)
